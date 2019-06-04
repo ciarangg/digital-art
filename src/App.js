@@ -11,7 +11,7 @@ import Nav from './Components/Nav'
 import HomePage from './Components/HomePage';
 import ArtList from './Components/ArtList'
 import ArtistList from './Components/ArtistList'
-import Catalog from './Components/ArtList'
+import Catalog from './Components/Catalog'
 import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
 
