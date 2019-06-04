@@ -10,6 +10,7 @@ class Nav extends Component {
         return ( <div>
 
                     <h1>Nav</h1>
+                    <NavLink to="/"> home </NavLink>
                     <NavLink to="/art"> art </NavLink>
                     <NavLink to="/artists"> artists </NavLink>
                     <NavLink to="/events"> events </NavLink>

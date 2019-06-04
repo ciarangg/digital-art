@@ -1,6 +1,12 @@
 [{
     "name": "Spaghetti exhibition",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
+    "picture": "https://laistassets.scprdev.org/i/462e59ea763d4e524c6f50a44ef28f2c/5c48f94e496b7c00094328ce-eight.jpg",
+    "date": "10/10/10",
+    "time": "6:00PM"
+},
+{
+    "name": "NOT Spaghetti exhibition",
+    "picture": "https://laistassets.scprdev.org/i/462e59ea763d4e524c6f50a44ef28f2c/5c48f94e496b7c00094328ce-eight.jpg",
     "date": "10/10/10",
     "time": "6:00PM"
 }]

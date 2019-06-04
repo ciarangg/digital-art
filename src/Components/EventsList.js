@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Event from './SubComponents/Event'
 
 class EventsList extends Component {
 
@@ -19,11 +19,15 @@ class EventsList extends Component {
     }
 
     render() {
+        let {theEventsList} = this.state
 
-        console.log(this.state.theEventsList)
+        let eventList = theEventsList.map((event, i) => {
+            return (<Event key={event[i]} event={event}/> )
+        })
 
         return ( <div>
                     <h1>EVENTS</h1>
+                    {eventList}
                 </div>
         );
     }

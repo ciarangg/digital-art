@@ -21,12 +21,15 @@ class ArtistList extends Component {
 
 
     render() {
+        let {theArtistList} = this.state
 
-        console.log(this.state.theArtistList)
-
+        let artistList = theArtistList.map((artist, i) => {
+            return (<Artist key={artist[i]} artist={artist}/> )
+        })
 
         return ( <div>
                     <h1>ARTIST</h1>
+                    {artistList}
                 </div>
         );
     }

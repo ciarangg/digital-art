@@ -20,11 +20,13 @@ class Catalog extends Component {
 
 
     render() {
-
-        console.log(this.state.theCatalog)
+        let {theCatalog} = this.state
+        console.log(theCatalog)
 
         return ( <div>
                     <h1>CATALOG</h1>
+                    <h4>{theCatalog.title}</h4>
+                    <p>{theCatalog.text}</p>
                 </div>
         );
     }
