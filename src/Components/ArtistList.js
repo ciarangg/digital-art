@@ -7,6 +7,7 @@ class ArtistList extends Component {
     render() {
 
         return ( <div>
+                    <h1>ARTIST</h1>
                 </div>
         );
     }

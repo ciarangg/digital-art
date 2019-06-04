@@ -7,7 +7,7 @@ class Embassy extends Component {
     render() {
 
         return ( <div>
-
+                    <h1>EMBASSY</h1>
                 </div>
         );
     }
