@@ -2,7 +2,9 @@ import React from 'react';
 import './App.css';
 
 
-import {Switch, Route} from "react-router-dom";
+// import {Switch, Route} from "react-router-dom";
+
+import {Route} from "react-router-dom";
 import {BrowserRouter as Router} from "react-router-dom";
 
 

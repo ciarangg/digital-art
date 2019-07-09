@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Route} from "react-router-dom";
 import {NavLink} from "react-router-dom";
+
+// import ReactDOM from 'react-dom';
+// import {BrowserRouter as Router, Route} from "react-router-dom";
+
 
 
 
@@ -13,7 +15,7 @@ class HomePage extends Component {
 
         return (
             <div>
-                <h1>HELLO</h1>
+                <h1>HELO</h1>
 
                 <NavLink to="/art"> art </NavLink>
                 <NavLink to="/artists"> artists </NavLink>
