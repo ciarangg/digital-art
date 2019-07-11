@@ -35,3 +35,12 @@
 /* * {
   background-color: #282c34;
 } */
+
+#alignright {
+  text-align: left;
+}
+
+/* #particle-canvas {
+  width: 100%;
+  height: 100%;
+} */
