@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {NavLink} from "react-router-dom";
 
 // import {NavLink} from "react-router-dom";
 // import logo from "../pics/logo.png"
@@ -23,25 +24,32 @@ class Nav extends Component {
                     <div className="collapse navbar-collapse" id="navbarColor02">
                         <ul id="alignright" className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                            {/* <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a> */}
+                            <NavLink className="nav-link" to="/"> Home </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
+                            {/* <a className="nav-link" href="/about">About</a> */}
+                            <NavLink className="nav-link" to="/about"> About </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/art">Art</a>
+                            {/* <a className="nav-link" href="/art">Art</a> */}
+                            <NavLink className="nav-link" to="/art"> Art </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/artists">Artists</a>
+                            {/* <a className="nav-link" href="/artists">Artists</a> */}
+                            <NavLink className="nav-link" to="/artists"> Artists </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/events">Events</a>
+                            {/* <a className="nav-link" href="/events">Events</a> */}
+                            <NavLink className="nav-link" to="/events"> Events </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/catalog">Catalog</a>
+                            {/* <a className="nav-link" href="/catalog">Catalog</a> */}
+                            <NavLink className="nav-link" to="/catalog"> Catalog </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/embassy">Embassy</a>
+                            {/* <a className="nav-link" href="/embassy">Embassy</a> */}
+                            <NavLink className="nav-link" to="/embassy"> Embassy </NavLink>
                         </li>
                         </ul>
                         {/* <form className="form-inline my-2 my-lg-0">
