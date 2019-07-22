@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Artist from './SubComponents/Artist'
+import Particles from 'react-particles-js'
 
 
 class ArtistList extends Component {

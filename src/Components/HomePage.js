@@ -15,7 +15,7 @@ class HomePage extends Component {
 
         return (
             <div>
-                <h1>HELO</h1>
+                <h1>ELLO</h1>
 
                 <NavLink to="/art"> art </NavLink>
                 <NavLink to="/artists"> artists </NavLink>
