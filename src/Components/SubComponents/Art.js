@@ -6,8 +6,14 @@ import ArtPiecePage from './ArtPiecePage'
 
 class Art extends Component {
 
+    
+
 
     render() {
+        
+
+
+
         let {art} = this.props
 
         let artTitleReplace = art.title.replace(' ', '-')
@@ -21,13 +27,16 @@ class Art extends Component {
 
                     {/* <Route path="/about" component={About} /> */}
 
-                    <NavLink to={artPagePath}> {art.title} </NavLink>
+                    {/* <NavLink to={artPagePath}> {art.title} </NavLink> */}
                     
-                    <p>{art.artistName}</p>
+                    {/* <p>{art.artistName}</p> */}
 
 
                     {/* <h6>{art.title}</h6> */}
                     <img src={art.picture} alt={art.title} height="350" width="350" />
+                    <br />
+                    <br />
+
                     
                 </div>
         );

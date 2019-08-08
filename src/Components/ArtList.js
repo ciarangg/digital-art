@@ -30,8 +30,7 @@ class ArtList extends Component {
         })
 
         return ( <div>
-                    
-                    <h1>ART</h1>
+                    <br />
                     {artList}
                     
                 </div>
