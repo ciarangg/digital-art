@@ -25,7 +25,7 @@ class Nav extends Component {
                         <ul id="alignright" className="navbar-nav mr-auto">
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a> */}
-                            <NavLink className="nav-link" to="/"> Home </NavLink>
+                            <NavLink className="nav-link" to="/"> Home <span className="sr-only">(current)</span> </NavLink>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/about">About</a> */}

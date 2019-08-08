@@ -15,13 +15,8 @@ class HomePage extends Component {
 
         return (
             <div>
-                <h1>ELLO</h1>
-
-                <NavLink to="/art"> art </NavLink>
-                <NavLink to="/artists"> artists </NavLink>
-                <NavLink to="/events"> events </NavLink>
-                <NavLink to="/catalog"> catalog </NavLink>
-                <NavLink to="/embassy"> embassy </NavLink> 
+                <br />
+                <p align="left"><pre>     November 1, 2019 - March 1, 2019 </pre></p>
 
             </div>
 

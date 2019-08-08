@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Art from './SubComponents/Art'
 
+import Particles from 'react-particles-js'
+
 class ArtList extends Component {
 
     constructor(props) {
@@ -28,8 +30,10 @@ class ArtList extends Component {
         })
 
         return ( <div>
+                    
                     <h1>ART</h1>
                     {artList}
+                    
                 </div>
         );
     }

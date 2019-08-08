@@ -18,7 +18,7 @@ import Catalog from './Components/Catalog'
 import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
 
-const brand = { name: "peekaboo", to: "home" }
+
 
 function App() {
 
@@ -29,10 +29,10 @@ function App() {
     <Router>
       <div className="App">
 
-          <Nav brand={brand} />
+          <Nav />
 
-          
-        
+
+
           <Route exact path="/" component={HomePage}/>
           <Route path="/about" component={About} />
           <Route path="/art" component={ArtList} />
@@ -41,7 +41,10 @@ function App() {
           <Route path="/catalog" component={Catalog}/>
           <Route path="/embassy" component={Embassy}/>
 
+          
           <Particles />
+          
+
 
           {/* <Particles 
                 params={{
