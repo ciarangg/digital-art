@@ -20,24 +20,13 @@ class Art extends Component {
 
         let artPagePath = `/${artTitleReplace}`
         
-        console.log(artPagePath)
+        // console.log(artPagePath)
 
 
         return ( <div>
 
-                    {/* <Route path="/about" component={About} /> */}
-
-                    {/* <NavLink to={artPagePath}> {art.title} </NavLink> */}
-                    
-                    {/* <p>{art.artistName}</p> */}
-
-
-                    {/* <h6>{art.title}</h6> */}
-                    <img src={art.picture} alt={art.title} height="350" width="350" />
-                    <br />
-                    <br />
-
-                    
+                    <NavLink className="nav-link" to="/bask"> <img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /> </NavLink>
+               
                 </div>
         );
     }

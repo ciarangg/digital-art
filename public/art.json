@@ -1,57 +1,37 @@
 [{
-    "title": "Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
+    "title": "Bask",
+    "picture": "./pics/Bask.jpg",
+    "art": "here's the art",
+    "artistName": "Snow Yunxue Fu",
+    "medium": "One channel video",
+    "year": "2019",
     "artistLink": "a"
 },
 {
-    "title": "NOT Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
+    "title": "Bask",
+    "picture": "./pics/Bask.jpg",
+    "art": "here's the art",
+    "artistName": "Snow Yunxue Fu",
+    "medium": "One channel video",
+    "year": "2019",
     "artistLink": "a"
 }
 ,
 {
     "title": "Mona Lisa",
     "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "art": "here's the art",
     "artistName": "Leonardo Da Vinci",
+    "medium": "Canvas",
+    "year": "516",
     "artistLink": "a"
 },
 {
-    "title": "Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
-    "artistLink": "a"
-},
-{
-    "title": "NOT Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
-    "artistLink": "a"
-}
-,
-{
-    "title": "Mona Lisa",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-    "artistName": "Leonardo Da Vinci",
-    "artistLink": "a"
-},
-{
-    "title": "Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
-    "artistLink": "a"
-},
-{
-    "title": "NOT Spaghetti",
-    "picture": "https://www.cookingclassy.com/wp-content/uploads/2018/01/instant-pot-spaghetti-12-500x500.jpg",
-    "artistName": "Cheeran",
-    "artistLink": "a"
-}
-,
-{
-    "title": "Mona Lisa",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-    "artistName": "Leonardo Da Vinci",
+    "title": "Bask",
+    "picture": "./pics/Bask.jpg",
+    "art": "here's the art",
+    "artistName": "Snow Yunxue Fu",
+    "medium": "One channel video",
+    "year": "2019",
     "artistLink": "a"
 }]

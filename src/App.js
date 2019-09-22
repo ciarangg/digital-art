@@ -10,6 +10,7 @@ import Particles from 'react-particles-js'
 
 
 import Nav from './Components/Nav'
+import Bottom from './Components/Bottom'
 import HomePage from './Components/HomePage'
 import About from './Components/About'
 import ArtList from './Components/ArtList'
@@ -17,6 +18,9 @@ import ArtistList from './Components/ArtistList'
 import Catalog from './Components/Catalog'
 import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
+import ContactUs from './Components/ContactUs'
+
+import Bask from './Components/IndividualArt/Bask'
 
 
 
@@ -40,23 +44,13 @@ function App() {
           <Route path="/events" component={EventsList}/>
           <Route path="/catalog" component={Catalog}/>
           <Route path="/embassy" component={Embassy}/>
+          <Route path="/contact" component={ContactUs}/>
+          <Route path="/bask" component={Bask}/>
 
           
-          <Particles />
+          {/* <Particles /> */}
           
-
-
-          {/* <Particles 
-                params={{
-                    polygon: {
-                        enable: true,
-                        type: 'inside',
-                        move: {
-                            radius: 10
-                        },
-                        url: 'pathseg.js'
-                    }
-                }} /> */}
+          <Bottom />
         
       </div>
     </Router>

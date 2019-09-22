@@ -51,6 +51,10 @@ class Nav extends Component {
                             {/* <a className="nav-link" href="/embassy">Embassy</a> */}
                             <NavLink className="nav-link" to="/embassy"> Embassy </NavLink>
                         </li>
+                        <li className="nav-item">
+                            {/* <a className="nav-link" href="/embassy">Embassy</a> */}
+                            <NavLink className="nav-link" to="/contact"> Contact Us </NavLink>
+                        </li>
                         </ul>
                         {/* <form className="form-inline my-2 my-lg-0">
                             <input className="form-control mr-sm-2" type="text" placeholder="Search" />
