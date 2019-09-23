@@ -29,7 +29,6 @@ class ArtistList extends Component {
         })
 
         return ( <div>
-                    <h1>ARTIST</h1>
                     {artistList}
                 </div>
         );

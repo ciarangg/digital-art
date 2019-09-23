@@ -26,7 +26,6 @@ class EventsList extends Component {
         })
 
         return ( <div>
-                    <h1>EVENTS</h1>
                     {eventList}
                 </div>
         );

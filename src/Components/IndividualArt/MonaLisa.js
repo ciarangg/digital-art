@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 
 
-class Embassy extends Component {
+class MonaLisa extends Component {
 
 
     render() {
 
         return ( <div>
-                    <h1>EMBASSY</h1>
+                    <h1>Mona Lisa</h1>
 
                 </div>
         );
     }
 }
 
-export default Embassy
+export default MonaLisa

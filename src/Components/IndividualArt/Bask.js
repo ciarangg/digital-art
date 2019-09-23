@@ -3,29 +3,11 @@ import React, { Component } from 'react';
 
 class Bask extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {theArtList: []};
-    }
-
-    componentDidMount() {
-        this.getArtList();
-      }
-
-    getArtList = () => {
-        return fetch('./art.json')
-          .then(response => response.json())
-          .then(theArtList => this.setState({theArtList}))
-    }
 
 
     render() {
 
-        let {theArtList} = this.state
-
-        let bask = theArtList[0]
-
-        console.log(bask)
+        console.log(this.props.location.params)
         
 
         return ( <div>

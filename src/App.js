@@ -6,7 +6,7 @@ import './App.css';
 
 import {Route} from "react-router-dom";
 import {BrowserRouter as Router} from "react-router-dom";
-import Particles from 'react-particles-js'
+
 
 
 import Nav from './Components/Nav'
@@ -21,6 +21,7 @@ import EventsList from './Components/EventsList'
 import ContactUs from './Components/ContactUs'
 
 import Bask from './Components/IndividualArt/Bask'
+import MonaLisa from './Components/IndividualArt/MonaLisa'
 
 
 
@@ -45,10 +46,9 @@ function App() {
           <Route path="/catalog" component={Catalog}/>
           <Route path="/embassy" component={Embassy}/>
           <Route path="/contact" component={ContactUs}/>
-          <Route path="/bask" component={Bask}/>
 
-          
-          {/* <Particles /> */}
+          <Route path="/bask" component={Bask}/>
+          <Route path="/mona-lisa" component={MonaLisa}/>
           
           <Bottom />
         
