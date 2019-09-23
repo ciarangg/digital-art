@@ -7,7 +7,7 @@ class Bask extends Component {
 
     render() {
 
-        console.log(this.props.location.params)
+        console.log(this.props.location.aboutProps.info)
         
 
         return ( <div>

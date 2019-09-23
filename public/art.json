@@ -5,6 +5,7 @@
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
+    "path": "bask",
     "artistLink": "a"
 },
 {
@@ -14,6 +15,7 @@
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
+    "path": "bask",
     "artistLink": "a"
 }
 ,
@@ -24,6 +26,7 @@
     "artistName": "Leonardo Da Vinci",
     "medium": "Canvas",
     "year": "516",
+    "path": "mona-lisa",
     "artistLink": "a"
 },
 {
@@ -33,5 +36,6 @@
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
+    "path": "bask",
     "artistLink": "a"
 }]

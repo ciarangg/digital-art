@@ -11,54 +11,30 @@ class Art extends Component {
 
 
     render() {
-        
-
 
         let {art} = this.props
 
-        let artTitleEdit = art.title.replace(' ', '-').toLowerCase()
+        // let artTitleEdit = art.title.replace(' ', '-').toLowerCase()
 
-        let artPagePath = `/${artTitleEdit}`
-        
-        console.log(artPagePath)
+        // let artPagePath = `/${artTitleEdit}`
+
+        let blah = {... this.props}
+
+        console.log(blah)
 
 
         return ( <div>
 
-                    {/* <Link to={{
-                        pathname: '/contact',
+
+                    <Link className="nav-link" to={{
+                        pathname: `${art.path}`,
                         aboutProps: {
-                            name: 'this worked'
-                        }
-
-                    }}
-                    
-                    > Contact Us </Link> */}
-
-
-
-                    {/* <NavLink className="nav-link" to={artPagePath}> <img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /> </NavLink> */}
-
-
-
-                    {/* <Link className="nav-link" to={artPagePath}> <img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /> </Link> */}
-
-
-
-
-                    {/* <Link className="nav-link" to={{
-                        pathname: {artPagePath},
-                        aboutProps: {
-                            name: 'this worked'
+                            info: `${blah}`
                         }
                     }}
                     
-                    ><img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /></Link> */}
+                    ><img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /></Link>
 
-                    {/* <NavLink className="nav-link" to={artPagePath} params={{ testvalue: "hello" }}> <img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /> </NavLink> */}
-
-                    <Link className="nav-link" to={artPagePath} params={{ testvalue: "hello" }}
-                    > <img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /> </Link>
                
                 </div>
         );
