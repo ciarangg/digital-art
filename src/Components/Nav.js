@@ -4,6 +4,9 @@ import {NavLink} from "react-router-dom";
 // import {NavLink} from "react-router-dom";
 // import logo from "../pics/logo.png"
 
+// import {Route} from "react-router-dom";
+// import MonaLisa from './IndividualArt/MonaLisa'
+
 class Nav extends Component {
 
 
@@ -15,6 +18,8 @@ class Nav extends Component {
 
         return ( 
                 <div>
+
+
                     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a className="navbar-brand" href="/">F=D</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">

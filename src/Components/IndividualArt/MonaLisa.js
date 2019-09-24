@@ -6,8 +6,10 @@ class MonaLisa extends Component {
 
     render() {
 
-        console.log(this.props.location.aboutProps)
+        // let info = this.props.location.aboutProps.info.art
 
+        console.log(this.props.location.aboutProps)
+        
         return ( <div>
                     <h1>Mona Lisa</h1>
 

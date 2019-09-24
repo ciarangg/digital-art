@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Artist from './SubComponents/Artist'
 import Particles from 'react-particles-js'
 
+import {Route} from "react-router-dom";
+import MonaLisa from './IndividualArt/MonaLisa'
+
 
 class ArtistList extends Component {
 

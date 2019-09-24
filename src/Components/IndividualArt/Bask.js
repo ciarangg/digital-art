@@ -7,8 +7,9 @@ class Bask extends Component {
 
     render() {
 
-        console.log(this.props.location.aboutProps.info)
+        // let info = this.props.location.aboutProps.info.art
         
+        console.log(this.props.location.aboutProps)
 
         return ( <div>
                     <h1>Bask</h1>

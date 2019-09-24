@@ -3,6 +3,9 @@ import Art from './SubComponents/Art'
 
 import Particles from 'react-particles-js'
 
+import {Route} from "react-router-dom";
+import MonaLisa from './IndividualArt/MonaLisa'
+
 class ArtList extends Component {
 
     constructor(props) {
@@ -31,7 +34,9 @@ class ArtList extends Component {
 
         return ( <div>
                     <br />
-                    {artList}
+                    {/* {artList} */}
+                    <Route  exact path='/art'  component={() => <div>{artList}</div> }/>
+                    <Route path="/art/mona-lisa" component={MonaLisa}/>
                     
                 </div>
         );

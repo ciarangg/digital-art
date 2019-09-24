@@ -2,11 +2,10 @@ import React from 'react';
 import './App.css';
 
 
-// import {Switch, Route} from "react-router-dom";
-
 import {Route} from "react-router-dom";
 import {BrowserRouter as Router} from "react-router-dom";
 
+// import ArtInfo from '../public/art.json'
 
 
 import Nav from './Components/Nav'
@@ -48,7 +47,8 @@ function App() {
           <Route path="/contact" component={ContactUs}/>
 
           <Route path="/bask" component={Bask}/>
-          <Route path="/mona-lisa" component={MonaLisa}/>
+          {/* <Route path="/mona-lisa" component={MonaLisa}/> */}
+
           
           <Bottom />
         
