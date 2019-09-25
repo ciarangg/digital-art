@@ -16,9 +16,7 @@ class Art extends Component {
 
 
 
-        return ( <div>
-
-                
+        return ( <div>              
 
 
                     <Link className="nav-link" to={{
