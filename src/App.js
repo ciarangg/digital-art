@@ -19,8 +19,7 @@ import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
 import ContactUs from './Components/ContactUs'
 
-import Bask from './Components/IndividualArt/Bask'
-import MonaLisa from './Components/IndividualArt/MonaLisa'
+
 
 
 
@@ -46,7 +45,7 @@ function App() {
           <Route path="/embassy" component={Embassy}/>
           <Route path="/contact" component={ContactUs}/>
 
-          <Route path="/bask" component={Bask}/>
+          {/* <Route path="/bask" component={Bask}/> */}
           {/* <Route path="/mona-lisa" component={MonaLisa}/> */}
 
           
