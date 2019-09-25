@@ -5,8 +5,6 @@ import './App.css';
 import {Route} from "react-router-dom";
 import {BrowserRouter as Router} from "react-router-dom";
 
-// import ArtInfo from '../public/art.json'
-
 
 import Nav from './Components/Nav'
 import Bottom from './Components/Bottom'
@@ -44,9 +42,6 @@ function App() {
           <Route path="/catalog" component={Catalog}/>
           <Route path="/embassy" component={Embassy}/>
           <Route path="/contact" component={ContactUs}/>
-
-          {/* <Route path="/bask" component={Bask}/> */}
-          {/* <Route path="/mona-lisa" component={MonaLisa}/> */}
 
           
           <Bottom />

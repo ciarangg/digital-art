@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Art from './SubComponents/Art'
 
-import Particles from 'react-particles-js'
 
 import {Route} from "react-router-dom";
-import MonaLisa from './IndividualArt/MonaLisa'
-import Bask from './IndividualArt/Bask'
+
+
+import Picture from './IndividualArt/Picture'
 
 class ArtList extends Component {
 
@@ -29,35 +29,28 @@ class ArtList extends Component {
     render() {
         let {theArtList} = this.state
 
-        // console.log(theArtList)
-
         let artList = theArtList.map((art, i) => {
             return (<Art key={art[i]} art={art}/> )
         })
 
+        // let createRoute = theArtList.map((art, i) => {
+        //     let path = `/art/${art.path}`
+        //     let component = art.title.replace(" ", "")
+        //     console.log(component)
+        //     return (<Route path={path} component={component}/>)
+        // })
+
         let createRoute = theArtList.map((art, i) => {
             let path = `/art/${art.path}`
-            let component = art.title.replace(" ", "")
-            console.log(component)
-            return (<Route path={path} component={component}/>)
+            return (<Route path={path} component={Picture}/>)
         })
-
-        console.log(createRoute)
 
         return ( <div>
                     <br />
 
-                    {/* {artList} */}
                     <Route  exact path='/art'  component={() => <div>{artList}</div> }/>
-
-                    {/* <Route path="/art/mona-lisa" component={MonaLisa}/>
-                    <Route path="/art/bask" component={Bask}/> */}
-
                     {createRoute}
-
-                    
-
-                    
+    
                     
                 </div>
         );

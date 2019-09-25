@@ -6,6 +6,8 @@ import {Route} from "react-router-dom";
 import MonaLisa from './IndividualArt/MonaLisa'
 
 
+
+
 class ArtistList extends Component {
 
     constructor(props) {

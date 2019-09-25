@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
 
-// import {NavLink} from "react-router-dom";
-// import logo from "../pics/logo.png"
 
-// import {Route} from "react-router-dom";
-// import MonaLisa from './IndividualArt/MonaLisa'
 
 class Nav extends Component {
 

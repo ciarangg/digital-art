@@ -14,9 +14,6 @@ class Art extends Component {
 
         let {art} = this.props
 
-        // let artTitleEdit = art.title.replace(' ', '-').toLowerCase()
-
-        // let artPagePath = `/${artTitleEdit}`
 
 
         return ( <div>
