@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
 
-class Catalog extends Component {
+// class Catalog extends Component {
 
 
 
 
-    render() {
+//     render() {
 
         
         
 
-        return ( <div>
-                    <h1>CATALOG</h1>
+//         return ( <div>
+//                     <h1>CATALOG</h1>
 
 
                     
-                </div>
-        );
-    }
-}
+//                 </div>
+//         );
+//     }
+// }
 
-export default Catalog
+// export default Catalog

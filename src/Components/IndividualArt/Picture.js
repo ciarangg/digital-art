@@ -7,9 +7,9 @@ class Picture extends Component {
 
     render() {
 
-        // let info = this.props.location.aboutProps.info.art
+        let info = this.props.location.aboutProps.info.art
         
-        console.log(this.props.location.aboutProps)
+        console.log(info)
 
         return ( <div>
                     <h1>Baskpic</h1>

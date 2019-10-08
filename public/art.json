@@ -9,13 +9,13 @@
     "artistLink": "a"
 },
 {
-    "title": "Bask",
+    "title": "Not Bask",
     "picture": "./pics/Bask.jpg",
     "art": "here's the art",
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
-    "path": "bask",
+    "path": "not-bask",
     "artistLink": "a"
 }
 ,
@@ -30,12 +30,12 @@
     "artistLink": "a"
 },
 {
-    "title": "Bask",
+    "title": "Definitely Not Bask",
     "picture": "./pics/Bask.jpg",
     "art": "here's the art",
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
-    "path": "bask",
+    "path": "definitely-not-bask",
     "artistLink": "a"
 }]

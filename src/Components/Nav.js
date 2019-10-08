@@ -34,7 +34,7 @@ class Nav extends Component {
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/art">Art</a> */}
-                            <NavLink className="nav-link" to="/art"> Exhibitions </NavLink>
+                            <NavLink className="nav-link" to="/art"> Exhibition </NavLink>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/artists">Artists</a> */}
@@ -43,10 +43,6 @@ class Nav extends Component {
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/events">Events</a> */}
                             <NavLink className="nav-link" to="/events"> Events </NavLink>
-                        </li>
-                        <li className="nav-item">
-                            {/* <a className="nav-link" href="/catalog">Catalog</a> */}
-                            <NavLink className="nav-link" to="/catalog"> Catalog </NavLink>
                         </li>
                         <li className="nav-item">
                             {/* <a className="nav-link" href="/embassy">Embassy</a> */}
