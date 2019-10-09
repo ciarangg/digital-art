@@ -1,7 +1,7 @@
 [{
     "title": "Bask",
     "picture": "./pics/Bask.jpg",
-    "art": "here's the art",
+    "art": "https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
     "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
@@ -32,7 +32,7 @@
 {
     "title": "Floridada",
     "picture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
-    "art": "here's the art",
+    "art": "https://www.youtube.com/embed/cuoIvNFUY7I",
     "artistName": "Animal Collective",
     "medium": "One channel video",
     "year": "2019",

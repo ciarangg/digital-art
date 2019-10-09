@@ -12,8 +12,8 @@ class Video extends Component {
         console.log(info)
 
         return ( <div>
-                    <h1>VIDEO</h1>
-                    
+                    <h1>{info.title}</h1>
+                    <iframe width="560" height="315" src={info.art} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
         );
     }
