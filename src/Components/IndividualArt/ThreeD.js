@@ -12,7 +12,7 @@ class ThreeD extends Component {
         console.log(info)
 
         return ( <div>
-                    <h1>3d</h1>
+                    <h1>{info.title}</h1>
                     <iframe title="A 3D model" width="640" height="480" src={info.art} frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
         );

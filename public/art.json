@@ -1,51 +1,66 @@
 [{
     "title": "Bask",
-    "picture": "./pics/Bask.jpg",
+    "artPicture": "./pics/Bask.jpg",
     "art": "https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
-    "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
+    "artDescription": "project description goes here",
     "path": "bask",
-    "artistLink": "a"
+    "artistName": "Snow Yunxue Fu",
+    "artistPicture": "https://media.mnn.com/assets/images/2014/12/snowflake.jpg.653x0_q80_crop-smart.jpg",
+    "bio": "artist's bio goes here",
+    "artistPath": "snow-yunxue-fu"
 },
 {
     "title": "The Creation of Adam",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
+    "artPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
     "art": "here's the art",
-    "artistName": "Michaelangelo",
     "medium": "Canvas",
     "year": "2019",
+    "artDescription": "project description goes here",
     "path": "the-creation-of-adam",
-    "artistLink": "a"
+    "artistName": "Michaelangelo",
+    "artistPicture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg",
+    "bio": "artist's bio goes here",
+    "artistPath": "michaelangelo"
 }
 ,
 {
     "title": "Mona Lisa",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "artPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
     "art": "here's the art",
-    "artistName": "Leonardo Da Vinci",
     "medium": "Canvas",
     "year": "516",
+    "artDescription": "project description goes here",
     "path": "mona-lisa",
-    "artistLink": "a"
+    "artistName": "Leonardo Da Vinci",
+    "artistPicture": "https://www.biography.com/.image/t_share/MTY2MzU4MjUzMDA4MDcwMzE4/portrait-of-leonardo-da-vinci-1452-1519-getty.jpg",
+    "bio": "artist's bio goes here",
+    "artistPath": "leonardo-da-vinci"
 },
 {
     "title": "Floridada",
-    "picture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
+    "artPicture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
     "art": "https://www.youtube.com/embed/cuoIvNFUY7I",
-    "artistName": "Animal Collective",
     "medium": "One channel video",
     "year": "2019",
+    "artDescription": "project description goes here",
     "path": "floridada",
-    "artistLink": "a"
+    "artistName": "Animal Collective",
+    "artistPicture": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Animal_Collective-3.jpg",
+    "bio": "artist's bio goes here",
+    "artistPath": "animal-collective"
 },
 {
     "title": "Illuminating Anonymous",
-    "picture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
+    "artPicture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
     "art": "https://sketchfab.com/models/ca5ab51fcf1044e1990ec6cc9d004fd2/embed",
-    "artistName": "Rui Sha",
     "medium": "3D Model",
     "year": "2019",
+    "artDescription": "project description goes here",
     "path": "illuminating-anonymous",
-    "artistLink": "a"
+    "artistName": "Rui Sha",
+    "artistPicture": "https://bllhlaw.com/wp-content/uploads/2018/06/blank-female-profile.png",
+    "bio": "artist's bio goes here",
+    "artistPath": "rui-sha"
 }]
