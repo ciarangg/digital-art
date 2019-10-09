@@ -10,7 +10,7 @@ class Event extends Component {
 
         return ( <div>
                     <h4>{event.name}</h4>
-                    <img src={event.picture} alt={event.name} height="350" width="350" />
+                    <img src={event.picture} alt={event.name} title={event.name} height="350" width="350" />
                     <p>{event.date}</p>
                 </div>
         );

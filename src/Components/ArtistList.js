@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import Artist from './SubComponents/Artist'
-import Particles from 'react-particles-js'
-
+import IndividualArtistPage from './SubComponents/IndividualArtistPage'
 import {Route} from "react-router-dom";
-import MonaLisa from './IndividualArt/MonaLisa'
-
 
 
 
@@ -20,7 +17,7 @@ class ArtistList extends Component {
       }
 
     getArtistList = () => {
-        return fetch('./artists.json')
+        return fetch('./art.json')
           .then(response => response.json())
           .then(theArtistList => this.setState({theArtistList}))
     }
@@ -33,8 +30,16 @@ class ArtistList extends Component {
             return (<Artist key={artist[i]} artist={artist}/> )
         })
 
+        let createRoute = theArtistList.map((artist, i) => {
+            let path = `/artists/${artist.artistPath}`
+            return (<Route path={path} component={IndividualArtistPage}/>)
+        })
+
         return ( <div>
-                    {artistList}
+                    {/* {artistList} */}
+
+                    <Route  exact path='/artists'  component={() => <div>{artistList}</div> }/>
+                    {createRoute}
                 </div>
         );
     }

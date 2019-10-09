@@ -5,9 +5,9 @@ import Art from './SubComponents/Art'
 import {Route} from "react-router-dom";
 
 
-import Picture from './IndividualArt/Picture'
-import Video from './IndividualArt/Video'
-import ThreeD from './IndividualArt/ThreeD'
+import Picture from './SubComponents/IndividualArt/Picture'
+import Video from './SubComponents/IndividualArt/Video'
+import ThreeD from './SubComponents/IndividualArt/ThreeD'
 
 class ArtList extends Component {
 
