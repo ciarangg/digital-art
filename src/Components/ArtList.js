@@ -7,6 +7,7 @@ import {Route} from "react-router-dom";
 
 import Picture from './IndividualArt/Picture'
 import Video from './IndividualArt/Video'
+import ThreeD from './IndividualArt/ThreeD'
 
 class ArtList extends Component {
 
@@ -57,6 +58,9 @@ class ArtList extends Component {
                 return (<Route path={path} component={Video}/>)
             }
 
+            else if (`${art.medium}` === "3D Model") {
+                return (<Route path={path} component={ThreeD}/>)
+            }
         })
 
         return ( <div>
