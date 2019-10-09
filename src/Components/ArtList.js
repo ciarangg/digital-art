@@ -6,6 +6,7 @@ import {Route} from "react-router-dom";
 
 
 import Picture from './IndividualArt/Picture'
+import Video from './IndividualArt/Video'
 
 class ArtList extends Component {
 
@@ -40,9 +41,22 @@ class ArtList extends Component {
         //     return (<Route path={path} component={component}/>)
         // })
 
+        // let createRoute = theArtList.map((art, i) => {
+        //     let path = `/art/${art.path}`
+        //     return (<Route path={path} component={Picture}/>)
+        // })
+
         let createRoute = theArtList.map((art, i) => {
             let path = `/art/${art.path}`
-            return (<Route path={path} component={Picture}/>)
+            
+            if (`${art.medium}` === "Canvas") {
+                return (<Route path={path} component={Picture}/>)
+            }
+
+            else if (`${art.medium}` === "One channel video") {
+                return (<Route path={path} component={Video}/>)
+            }
+
         })
 
         return ( <div>

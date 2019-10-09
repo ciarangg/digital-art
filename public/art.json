@@ -9,13 +9,13 @@
     "artistLink": "a"
 },
 {
-    "title": "Not Bask",
-    "picture": "./pics/Bask.jpg",
+    "title": "The Creation of Adam",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
     "art": "here's the art",
-    "artistName": "Snow Yunxue Fu",
-    "medium": "One channel video",
+    "artistName": "Michaelangelo",
+    "medium": "Canvas",
     "year": "2019",
-    "path": "not-bask",
+    "path": "the-creation-of-adam",
     "artistLink": "a"
 }
 ,
@@ -30,12 +30,12 @@
     "artistLink": "a"
 },
 {
-    "title": "Definitely Not Bask",
-    "picture": "./pics/Bask.jpg",
+    "title": "Floridada",
+    "picture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
     "art": "here's the art",
-    "artistName": "Snow Yunxue Fu",
+    "artistName": "Animal Collective",
     "medium": "One channel video",
     "year": "2019",
-    "path": "definitely-not-bask",
+    "path": "floridada",
     "artistLink": "a"
 }]
