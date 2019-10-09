@@ -35,18 +35,6 @@ class ArtList extends Component {
             return (<Art key={art[i]} art={art}/> )
         })
 
-        // let createRoute = theArtList.map((art, i) => {
-        //     let path = `/art/${art.path}`
-        //     let component = art.title.replace(" ", "")
-        //     console.log(component)
-        //     return (<Route path={path} component={component}/>)
-        // })
-
-        // let createRoute = theArtList.map((art, i) => {
-        //     let path = `/art/${art.path}`
-        //     return (<Route path={path} component={Picture}/>)
-        // })
-
         let createRoute = theArtList.map((art, i) => {
             let path = `/art/${art.path}`
             
@@ -62,6 +50,7 @@ class ArtList extends Component {
                 return (<Route path={path} component={ThreeD}/>)
             }
         })
+
 
         return ( <div>
                     <br />
