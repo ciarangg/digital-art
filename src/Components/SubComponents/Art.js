@@ -13,7 +13,7 @@ class Art extends Component {
 
         let {art} = this.props
 
-
+        console.log(art)
 
         return ( <div>              
 
