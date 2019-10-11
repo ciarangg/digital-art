@@ -30,16 +30,12 @@ class ArtistList extends Component {
             return (<Artist key={artist[i]} artist={artist}/> )
         })
 
-        let createRoute = theArtistList.map((artist, i) => {
-            let path = `/artists/${artist.artistPath}`
-            return (<Route path={path} component={IndividualArtistPage}/>)
-        })
 
         return ( <div>
                     {/* {artistList} */}
 
                     <Route  exact path='/artists'  component={() => <div>{artistList}</div> }/>
-                    {createRoute}
+                    {/* {createRoute} */}
                 </div>
         );
     }

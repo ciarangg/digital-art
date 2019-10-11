@@ -16,6 +16,8 @@ import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
 import ContactUs from './Components/ContactUs'
 
+import IndividualArtistPage from './Components/SubComponents/IndividualArtistPage';
+
 
 
 
@@ -33,8 +35,12 @@ function App() {
 
           <Route exact path="/" component={HomePage}/>
           <Route path="/about" component={About} />
+
           <Route path="/art" component={ArtList} />
+
           <Route path="/artists" component={ArtistList}/>
+          <Route path="/artists/:name" component={IndividualArtistPage}/>
+
           <Route path="/events" component={EventsList}/>
           <Route path="/embassy" component={Embassy}/>
           <Route path="/contact" component={ContactUs}/>
