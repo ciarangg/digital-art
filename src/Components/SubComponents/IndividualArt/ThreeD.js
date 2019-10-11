@@ -8,15 +8,16 @@ class ThreeD extends Component {
 
     render() {
 
-        let info = this.props.location.aboutProps.info.art
+        // let info = this.props.location.aboutProps.info.art
         
-        console.log(info)
+        // console.log(info)
 
         return ( <div>
-                    <h1>{info.title}</h1>
+                    <h1>ThreeD component</h1>
+                    {/* <h1>{info.title}</h1>
                     <iframe title="A 3D model" width="640" height="480" src={info.art} frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     <p>{info.artDescription}</p>
-                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p>
+                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p> */}
                 </div>
         );
     }

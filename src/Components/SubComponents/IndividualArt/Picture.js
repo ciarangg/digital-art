@@ -8,15 +8,16 @@ class Picture extends Component {
 
     render() {
 
-        let info = this.props.location.aboutProps.info.art
+        // let info = this.props.location.aboutProps.info.art
         
-        console.log(info)
+        // console.log(info)
 
         return ( <div>
-                    <h1>{info.title}</h1>
+                    <h1>Picture component</h1>
+                    {/* <h1>{info.title}</h1>
                     <img src={info.artPicture} alt={info.title} title={info.title} height="350" width="350" />
                     <p>{info.artDescription}</p>
-                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p>
+                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p> */}
                 </div>
         );
     }

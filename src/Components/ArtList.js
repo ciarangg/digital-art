@@ -35,28 +35,13 @@ class ArtList extends Component {
             return (<Art key={art[i]} art={art}/> )
         })
 
-        let createRoute = theArtList.map((art, i) => {
-            let path = `/art/${art.path}`
-            
-            if (`${art.medium}` === "Canvas") {
-                return (<Route path={path} component={Picture}/>)
-            }
-
-            else if (`${art.medium}` === "One channel video") {
-                return (<Route path={path} component={Video}/>)
-            }
-
-            else if (`${art.medium}` === "3D Model") {
-                return (<Route path={path} component={ThreeD}/>)
-            }
-        })
 
 
         return ( <div>
                     <br />
 
                     <Route  exact path='/art'  component={() => <div>{artList}</div> }/>
-                    {createRoute}
+                    {/* {createRoute} */}
     
                     
                 </div>

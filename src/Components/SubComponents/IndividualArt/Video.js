@@ -8,15 +8,16 @@ class Video extends Component {
 
     render() {
 
-        let info = this.props.location.aboutProps.info.art
+        // let info = this.props.location.aboutProps.info.art
         
-        console.log(info)
+        // console.log(info)
 
         return ( <div>
-                    <h1>{info.title}</h1>
+                    <h1>Video component</h1>
+                    {/* <h1>{info.title}</h1>
                     <iframe width="560" height="315" src={info.art} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     <p>{info.artDescription}</p>
-                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p>
+                    <p>Made by {info.artistName} <Link to={info.artistPath}>See {info.artistName}'s bio!</Link></p> */}
                 </div>
         );
     }

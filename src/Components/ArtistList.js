@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Artist from './SubComponents/Artist'
-import IndividualArtistPage from './SubComponents/IndividualArtistPage'
 import {Route} from "react-router-dom";
 
 

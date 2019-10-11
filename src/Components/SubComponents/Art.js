@@ -13,13 +13,17 @@ class Art extends Component {
 
         let {art} = this.props
 
+        let route = art.medium
+
+        console.log(route)
+
 
 
         return ( <div>              
 
 
                     <Link className="nav-link" to={{
-                        pathname: `art/${art.path}`,
+                        pathname: `/art/${route}`,
                         aboutProps: {
                             info: {art}
                         } 
