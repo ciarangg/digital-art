@@ -18,7 +18,7 @@ import EventsList from './Components/EventsList'
 import ContactUs from './Components/ContactUs'
 
 import IndividualArtistPage from './Components/SubComponents/IndividualArtistPage';
-import IndividualArtPage from './Components/SubComponents/IndividualArt/IndividualArtPage'
+import IndividualArtPage from './Components/SubComponents/IndividualArtPage'
 
 
   function App() {
@@ -34,10 +34,12 @@ import IndividualArtPage from './Components/SubComponents/IndividualArt/Individu
             <Route path="/about" component={About} />
 
             <Route path="/art" component={ArtList} />
-            <Route path="/art/:individualart" component={IndividualArtPage}/>
+            <Route path="/art/:title" component={IndividualArtPage}/>
 
             <Route path="/artists" component={ArtistList}/>
             <Route path="/artists/:name" component={IndividualArtistPage} />
+
+            <Route path="/art/:title/artists/:name" component={IndividualArtPage}/>
 
             <Route path="/events" component={EventsList}/>
             <Route path="/embassy" component={Embassy}/>
@@ -49,36 +51,6 @@ import IndividualArtPage from './Components/SubComponents/IndividualArt/Individu
         </div>
       </Router>
 
-      // <Router>
-      //   <div className="App">
-
-      //       <Nav />
-
-      //       <Route exact path="/" component={HomePage}/>
-      //       <Route path="/about" component={About}/>
-
-      //       {/* <Route path="/art" component={ArtList} />
-      //       <Route path="/art/:individualart" component={IndividualArtPage}/> */}
-      //       <Route path="/art" render={()=> (<ArtList theArtList={this.state.theArtList} />)} />
-      //       <Route path="/art/:individualart" render={()=> (<IndividualArtPage theArtList={this.state.theArtList} />)} />
-
-      //       {/* <Route path="/artists" component={ArtistList}/>
-      //       <Route path="/artists/:name" component={IndividualArtistPage}/> */}
-      //       <Route path="/artists" render={()=> (<ArtistList theArtList={this.state.theArtList} />)} />
-      //       <Route path="/artists/:name" render={()=> (<IndividualArtistPage theArtList={this.state.theArtList} />)} />
-
-      //       {/* <Route path="/events" component={EventsList}/> */}
-      //       <Route path="/events" render={()=> (<EventsList theArtList={this.state.theArtList} />)} />
-
-
-      //       <Route path="/embassy" component={Embassy}/>
-      //       <Route path="/contact" component={ContactUs}/>
-
-            
-      //       <Bottom />
-          
-      //   </div>
-      // </Router>
     );
   }
 

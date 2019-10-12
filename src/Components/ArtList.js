@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import Art from './SubComponents/Art'
 
-
 import {Route} from "react-router-dom";
-
-
-import Picture from './SubComponents/IndividualArt/Picture'
-import Video from './SubComponents/IndividualArt/Video'
-import ThreeD from './SubComponents/IndividualArt/ThreeD'
 
 class ArtList extends Component {
 
