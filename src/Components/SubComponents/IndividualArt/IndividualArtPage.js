@@ -10,22 +10,33 @@ class IndividualArtPage extends Component {
 
     render() {
 
-        let info = this.props.location.aboutProps.info.art.medium
+        // let info = this.props.location.aboutProps.info.art.medium
         
-        console.log(info.medium)
+        // console.log(info.medium)
 
 
-        if (info === "Canvas") {
-            return <Picture />;
+        let {theArtList} = this.props
+
+        console.log(theArtList.medium)
+
+
+        if (theArtList.medium === "Canvas") {
+            return (<Picture />);
         }
 
-        else if (info === "3D Model") {
+        else if (theArtList.medium === "3D Model") {
             return <ThreeD />;
         }
 
-        else if (info === "One channel video") {
+        else if (theArtList.medium === "One channel video") {
             return <Video />;
         }
+
+        // return (
+        //     <div>
+        //         <h1>BLARP</h1>
+        //     </div>
+        // )
 
     }
 }

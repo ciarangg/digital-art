@@ -13,11 +13,7 @@ class Art extends Component {
 
         let {art} = this.props
 
-        let route = art.medium
-
-        console.log(route)
-
-
+        let route = art.title
 
         return ( <div>              
 

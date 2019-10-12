@@ -1,5 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import './App.css';
+import React, { Component } from 'react';
 
 
 import {Route} from "react-router-dom";
@@ -18,49 +19,69 @@ import ContactUs from './Components/ContactUs'
 
 import IndividualArtistPage from './Components/SubComponents/IndividualArtistPage';
 import IndividualArtPage from './Components/SubComponents/IndividualArt/IndividualArtPage'
-import Picture from './Components/SubComponents/IndividualArt/Picture'
-import ThreeD from './Components/SubComponents/IndividualArt/ThreeD'
-import Video from './Components/SubComponents/IndividualArt/Video'
-
-let hello = "hello"
 
 
+  function App() {
 
+    return (
 
-function App() {
+      <Router>
+        <div className="App">
 
-  
+            <Nav />
 
+            <Route exact path="/" component={HomePage}/>
+            <Route path="/about" component={About} />
 
-  return (
-    <Router>
-      <div className="App">
+            <Route path="/art" component={ArtList} />
+            <Route path="/art/:individualart" component={IndividualArtPage}/>
 
-          <Nav />
+            <Route path="/artists" component={ArtistList}/>
+            <Route path="/artists/:name" component={IndividualArtistPage} />
 
-          <Route exact path="/" component={HomePage}/>
-          <Route path="/about" component={About}/>
+            <Route path="/events" component={EventsList}/>
+            <Route path="/embassy" component={Embassy}/>
+            <Route path="/contact" component={ContactUs}/>
 
-          <Route path="/art" component={ArtList} />
-          <Route path="/art/:individualart" component={IndividualArtPage}/>
-          {/* <Route path="/art/:individualart/:picture" component={Picture}/>
-          <Route path="/art/:individualart/:threed" component={ThreeD}/>
-          <Route path="/art/:individualart/:video" component={Video}/> */}
-
-          <Route path="/artists" component={ArtistList}/>
-          <Route path="/artists/:name" component={IndividualArtistPage}/>
-
-          <Route path="/events" component={EventsList}/>
-          <Route path="/embassy" component={Embassy}/>
-          <Route path="/contact" component={ContactUs}/>
-
+            
+            <Bottom />
           
-          <Bottom />
-        
-      </div>
-    </Router>
-  );
-}
+        </div>
+      </Router>
+
+      // <Router>
+      //   <div className="App">
+
+      //       <Nav />
+
+      //       <Route exact path="/" component={HomePage}/>
+      //       <Route path="/about" component={About}/>
+
+      //       {/* <Route path="/art" component={ArtList} />
+      //       <Route path="/art/:individualart" component={IndividualArtPage}/> */}
+      //       <Route path="/art" render={()=> (<ArtList theArtList={this.state.theArtList} />)} />
+      //       <Route path="/art/:individualart" render={()=> (<IndividualArtPage theArtList={this.state.theArtList} />)} />
+
+      //       {/* <Route path="/artists" component={ArtistList}/>
+      //       <Route path="/artists/:name" component={IndividualArtistPage}/> */}
+      //       <Route path="/artists" render={()=> (<ArtistList theArtList={this.state.theArtList} />)} />
+      //       <Route path="/artists/:name" render={()=> (<IndividualArtistPage theArtList={this.state.theArtList} />)} />
+
+      //       {/* <Route path="/events" component={EventsList}/> */}
+      //       <Route path="/events" render={()=> (<EventsList theArtList={this.state.theArtList} />)} />
+
+
+      //       <Route path="/embassy" component={Embassy}/>
+      //       <Route path="/contact" component={ContactUs}/>
+
+            
+      //       <Bottom />
+          
+      //   </div>
+      // </Router>
+    );
+  }
+
 
 export default App;
 

@@ -25,16 +25,15 @@ class ArtList extends Component {
           .then(response => response.json())
           .then(theArtList => this.setState({theArtList}))
     }
-
-    
+  
 
     render() {
         let {theArtList} = this.state
 
+
         let artList = theArtList.map((art, i) => {
             return (<Art key={art[i]} art={art}/> )
         })
-
 
 
         return ( <div>
