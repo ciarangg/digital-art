@@ -40,7 +40,6 @@
   text-align: left;
 }
 
-/* #particle-canvas {
-  width: 100%;
-  height: 100%;
-} */
+.lists {
+  display: flex;
+}

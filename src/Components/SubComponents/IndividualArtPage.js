@@ -40,7 +40,7 @@ class IndividualArtPage extends Component {
                             <h1>{a.title}</h1>
                             <img src={a.artPicture} alt={a.title} title={a.title} height="350" width="350" />
                             <p>{a.artDescription}</p>
-                            <p>Made by {a.artistName} <Link to={artistRoutah}>See {a.artistName}'s bio!</Link></p>
+                            <p>Made by {a.artistName} <Link to={artistRoute}>See {a.artistName}'s bio!</Link></p>
                         </div>);
             }
 

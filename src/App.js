@@ -39,8 +39,6 @@ import IndividualArtPage from './Components/SubComponents/IndividualArtPage'
             <Route path="/artists" component={ArtistList}/>
             <Route path="/artists/:name" component={IndividualArtistPage} />
 
-            <Route path="/art/:title/artists/:name" component={IndividualArtPage}/>
-
             <Route path="/events" component={EventsList}/>
             <Route path="/embassy" component={Embassy}/>
             <Route path="/contact" component={ContactUs}/>

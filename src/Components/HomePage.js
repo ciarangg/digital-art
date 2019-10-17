@@ -17,6 +17,7 @@ class HomePage extends Component {
             <div>
                 <br />
                 <p align="left"><pre>     November 1, 2019 - March 1, 2019 </pre></p>
+                <p align="left"><pre>     Under Construction </pre></p>
 
                 <Particles />
                 <Particles />

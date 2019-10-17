@@ -30,7 +30,7 @@ class ArtList extends Component {
         })
 
 
-        return ( <div>
+        return ( <div className="lists" >
                     <br />
 
                     <Route  exact path='/art'  component={() => <div>{artList}</div> }/>
