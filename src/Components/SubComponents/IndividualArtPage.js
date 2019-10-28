@@ -57,7 +57,7 @@ class IndividualArtPage extends Component {
             else if (params === a.title && a.medium === "Website") {
                 return (<div>
                     <h1>{a.title}</h1>
-                    <embed src="https://www.elektra-is-alive.com/" width="640" height="480"></embed>
+                    <embed src={a.art} width="640" height="480"></embed>
                     <p>{a.artDescription}</p>
                     <p>Made by {a.artistName}</p>
                 </div>)

@@ -1,4 +1,44 @@
 [{
+    "title": "Reality Room",
+    "picture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
+    "art": "https://sketchfab.com/models/ca5ab51fcf1044e1990ec6cc9d004fd2/embed",
+    "artistName": "Ethan Prioia",
+    "medium": "3D Model",
+    "year": "2019",
+    "path": "illuminating-anonymous",
+    "artistLink": "rui-sha"
+},
+{
+    "title": "Illuminating Anonymous",
+    "picture": "",
+    "art": "https://sketchfab.com/models/c260e4c9980b46c28d0d87b1f661be3b/embed",
+    "artistName": "Rui Sha",
+    "medium": "3D Model",
+    "year": "2019",
+    "path": "Illuminating Anonymous",
+    "artistLink": "https://ruiisa.com"
+ },
+ {
+    "title": "Flat Screen Earth Society",
+    "picture": "",
+    "art": "http://flatscreenearthsociety.xyz/",
+    "artistName": "Eric Fleischauer",
+    "medium": "Website",
+    "year": "2019",
+    "path": "x",
+    "artistLink": "x"
+},
+{
+    "title": "Bluet",
+    "picture": "",
+    "art": "",
+    "artistName": "Insun Kang/Yuzhu Chai",
+    "medium": "3D Model",
+    "year": "2019",
+    "path": "Bluet",
+    "artistLink": ""
+},    
+{
     "title": "Bask",
     "picture": "./pics/Bask.jpg",
     "art": "https://player.vimeo.com/video/334325456",
@@ -9,8 +49,137 @@
     "artistLink": "snow-yunxue-fu"
 },
 {
+    "title": "Dissolve Chicago",
+    "picture": "",
+    "art": "https://drive.google.com/file/d/1kRqcM3Y2__kW9ZtAIBE8MDQI4XPEoVcG/preview",
+    "artistName": "David Steinberg & Supreme Hinton",
+    "medium": "One channel video",
+    "year": "2019",
+    "path": "",
+    "artistLink": "Dissolve Chicago"
+},
+{
+    "title": "Gloriosa Superba",
+    "picture": "",
+    "art": "https://drive.google.com/file/d/1MXuZF3cPT3L_hhUffEA1PfILd5uoorUq/preview",
+    "artistName": "Mikey Peterson",
+    "medium": "One channel video",
+    "year": "2019",
+    "path": "Gloriosa Superba",
+    "artistLink": "http://mikeypeterson.com/new/"
+},
+{
+    "title": "zmbvbackwards",
+    "picture": "",
+    "art": "https://drive.google.com/file/d/1NWg5a8XeHKYW_3VDrYUe7ivOnazlvhcP/preview",
+    "artistName": "Anna Christine Sands",
+    "medium": "One channel video",
+    "year": "2018",
+    "path": "zmbvbackwards",
+    "artistLink": "https://www.annacsands.com"
+},
+{
+    "title": "liyao art",
+    "picture": "",
+    "art": "x",
+    "artistName": "Liyao",
+    "medium": "One channel video",
+    "year": "2018",
+    "path": "",
+    "artistLink": ""
+},
+{
+    "title": "Life in a Nutshell",
+    "picture": "",
+    "art": "https://sketchfab.com/playlists/embed?collection=4df82c35dc3f4e54a75517779a42e43a",
+    "artistName": "Yiyao Nie",
+    "medium": "3D Model",
+    "year": "2019",
+    "path": "Life in a Nutshell",
+    "artistLink": "https://yiyaonie.com"
+},
+{
+    "title": "The Ambulatory",
+    "picture": "",
+    "art": "https://aperry2.github.io/ambulatory/",
+    "artistName": "Alan Perry",
+    "medium": "Website",
+    "year": "2019",
+    "path": "",
+    "artistLink": "https://www.alanjperry.com"
+},
+{
+    "title": "Never Let Go of Me",
+    "picture": "",
+    "art": "https://drive.google.com/file/d/1fHytFF_sQgCUYW4lg_mFSFvLod-x1eVa/preview",
+    "artistName": "Austin Gladney",
+    "medium": "Sound",
+    "year": "2019",
+    "path": "Never Let Go of Me",
+    "artistLink": "https://www.austingladney.com"
+},
+{
+    "title": "Materials and Title TBD",
+    "picture": "",
+    "art": "",
+    "artistName": "Doug Rosman",
+    "medium": "Website",
+    "year": "2019",
+    "path": "Materials and Title TBD",
+    "artistLink": "http://dougrosman.com"
+},
+{
+    "title": " 2 degree window",
+    "picture": "",
+    "art": "",
+    "artistName": "Amay Kataria",
+    "medium": "Website",
+    "year": "2019",
+    "path": "Live Ledger",
+    "artistLink": "https://www.amaykataria.com"
+},
+{
+    "title": "A Cluster of Commodified Fear",
+    "picture": "",
+    "art": "https://drive.google.com/file/d/1pLB9ij2Al1LBIbSEdTW9Cd521nhtcYvL/preview",
+    "artistName": "Eduardo F. Rosario",
+    "medium": "3:43, Sound",
+    "year": "2019",
+    "path": "A Cluster of Commodified Fear",
+    "artistLink": "https://www.eduardofrosario.com"
+}, 
+{
+    "title": "Vending Machine",
+    "picture": "",
+    "art": "Link to his online store font", 
+    "artistName": "Jason Zhao",
+    "medium": "Vending Machine",
+    "year": "2019",
+    "path": "Vending Machine"
+},
+{
+    "title": "Download my food",
+    "picture": "",
+    "art": "",
+    "artistName": "Jas Brooks",
+    "medium": "Website",
+    "year": "2019",
+    "path": "Download my food",
+    "artistLink": "http://jasbrooks.net/"
+},
+{
+    "title": "I’d Love To",
+    "picture": "",
+    "art": "here's the art",
+    "artistName": "Wanbli Gamache",
+    "medium": "Performance/Video, 2019, 30 mins performance, video: 27mins in length",
+    "year": "2019",
+    "path": "I’d Love To",
+    "artistLink": "https://wanbligamache.com"
+},
+{
     "title": "Elektra is Alive",
-    "picture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXd3d21tbWysrLX19fAwMDc3Ny8vLzOzs7Kysq3t7fg4ODV1dXBwcHZ2dnFxcW6urqvWIoeAAAD1UlEQVR4nO2da5uqIBRGVS4mRv3/f3sEm4kSqzNuYEPvmm/TM46r/XLRJLoOAAAAAAAAAAAAAAAAAAAAAPAlqONHsASnkQ5BoCgFwYmkQkiKo0hhjr9PaaAR7DptDc2BqLFEgmyDSlVBB0tFugo6lrZIebjjKGM17RG5VdFQRnQdVZkp0gqucFIkrqBDLT+Sz+xGyDTdgutuWIz9KSK6wiSoVqZ5n91RNQfFdBV0MKhiSkE/aBTubgztTGaLMpriiuzPGKFTT65U0aAmGAdj6HJBpZ6L7lAuqHkq6CgU1HyCRRRVroiu/6zE9WLOCjqyj4u5BbNP4HILsrjCAAAAAAAAAAAAAAC7GBpKa+wznuVZHucyM3W009DTMGS/N/oRaiLyc4pnjlU8UVXQK5b/NH2Dkf7MKHDHGfkV0Wh3YrMVR7EuDMOptM+W1ZDgdr8ZWzfsYFgKGH5OM4a78882DI24aH0eo6+1YXj2E6BhmiOvNWGof2Z4Q0SxAUNzCaaw279owNAGghGVBgzH8Cpk2vSo9Rs+hLQfYMgGpDTgoae5bF5uwPA23q+G2ycAazOMOv/etBoiE7faDLvYY5r2eqviGFliXJuh6LctbWGU03S9RB9SrczQLr/UsewuXWgTV09iDWPkmWm1+5RqVYbit0P5j9ufNRnaYNj7RNH4dlmRoejvDNf3Q6U5ade11mMYCjrefWam5CArMlRBRD9qjGZepgE1GW4qGJ+D3vEfXdVkGBF0I+PeOhS13rmpyDAquDBFG6NPaF2Ge4LxxmhcQqeqDPcFNyOj8n3oz4u1GG560afG+DAymjl4rRbDl4KOoDGah4//KzFUbw3vjTFIaFOGP43xIaFtGU7D1T4ntC1Dx9wtCX16yqgtw2e7Bg0jwLAoMIQhDMsDQxjCsDwwhGFVhtOf8V9pyd/w6LfXVGB4EBiW4lvWW8yHl8wIe+qZGpKte+rdLRyOhoRr1yaWa9fo1h8ux+G5/rD9NaQLJ4pVwIzXAX/BUm4AAAAAAAAAAAAAhsS+0aKl/9eJRHuf7aEyb/xi5vwbamRVzLSx1APr/ouZgmNEvl17QrTNZFiignn3Qk29e90LZJYqCl1sm26VZYeiIhG9k34rrYIR7XxjTL1zX6ptaj/HpO1uCkd0JWVQC42DIX5H22RBZVHBLmFQuQj6vVBTBLVsL/pEiqCW70XvqBRBZRNRxzpHJX3Hy0y2X0OryE+QOKj8BD10VWTVi4ZQKTKtoIMmqIwFaRTZRvQ2aBAM/bx3xj1+drz9uJ8eAAAAAAAAAAAAAAAAAAAAAHXxD+30LgghGYFcAAAAAElFTkSuQmCC",
+    "picture": "",
     "art": "https://www.elektra-is-alive.com/",
     "artistName": "Sid Branca",
     "medium": "Website",
@@ -19,42 +188,22 @@
     "artistLink": "x"
 },
 {
-    "title": "The Creation of Adam",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
-    "art": "here's the art",
-    "artistName": "Michaelangelo",
-    "medium": "Canvas",
+    "title": "Sad Ice Cream",
+    "picture": "",
+    "art": "https://snowxu17.github.io/SadIceCream_FunnyFaceFilter/ ",
+    "artistName": "Snow Xu",
+    "medium": "Website",
     "year": "2019",
-    "path": "the-creation-of-adam",
-    "artistLink": "michaelangelo"
+    "path": "Sad Ice Cream",
+    "artistLink": "https://snowxushinuo.com"
 },
 {
-    "title": "Mona Lisa",
-    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-    "art": "here's the art",
-    "artistName": "Leonardo Da Vinci",
-    "medium": "Canvas",
-    "year": "516",
-    "path": "mona-lisa",
-    "artistLink": "leonardo-da-vinci"
-},
-{
-    "title": "Floridada",
-    "picture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
-    "art": "https://www.youtube.com/embed/cuoIvNFUY7I",
-    "artistName": "Animal Collective",
+    "title": "Five facts about tears",
+    "picture": "",
+    "art": "https://player.vimeo.com/video/318332197",
+    "artistName": "Xu Han",
     "medium": "One channel video",
     "year": "2019",
-    "path": "floridada",
-    "artistLink": "animal-collective"
-},
-{
-    "title": "Illuminating Anonymous",
-    "picture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
-    "art": "https://sketchfab.com/models/ca5ab51fcf1044e1990ec6cc9d004fd2/embed",
-    "artistName": "Rui Sha",
-    "medium": "3D Model",
-    "year": "2019",
-    "path": "illuminating-anonymous",
-    "artistLink": "rui-sha"
+    "path": "",
+    "artistLink": "https://xuhanart.com"
 }]
