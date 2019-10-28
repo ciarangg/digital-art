@@ -17,7 +17,6 @@ import Embassy from './Components/Embassy'
 import EventsList from './Components/EventsList'
 import ContactUs from './Components/ContactUs'
 
-import IndividualArtistPage from './Components/SubComponents/IndividualArtistPage';
 import IndividualArtPage from './Components/SubComponents/IndividualArtPage'
 
 
@@ -37,7 +36,6 @@ import IndividualArtPage from './Components/SubComponents/IndividualArtPage'
             <Route path="/art/:title" component={IndividualArtPage}/>
 
             <Route path="/artists" component={ArtistList}/>
-            <Route path="/artists/:name" component={IndividualArtistPage} />
 
             <Route path="/events" component={EventsList}/>
             <Route path="/embassy" component={Embassy}/>

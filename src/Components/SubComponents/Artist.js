@@ -8,15 +8,12 @@ class Artist extends Component {
     render() {
         let {artist} = this.props
 
-        let route = `/artists/${artist.artistName}`
+        let route = `/art/${artist.title}`
 
         return ( <div>
                     <Link className="nav-link" to={route}>
-                    <img src={artist.artistPicture} alt={artist.artistName} title={artist.artistName} height="350" width="350" />
+                        <p> {artist.artistName} </p>
                     </Link>
-
-                    <p></p>
-
                 </div>
         );
     }

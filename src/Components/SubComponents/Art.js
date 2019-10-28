@@ -25,7 +25,7 @@ class Art extends Component {
                         } 
                     }}
                     
-                    ><img src={art.artPicture} alt={art.title} title={art.title} height="350" width="350" /></Link>
+                    ><img src={art.picture} alt={art.title} title={art.title} height="350" width="350" /></Link>
 
                
                 </div>

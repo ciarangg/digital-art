@@ -1,65 +1,60 @@
 [{
     "title": "Bask",
-    "artPicture": "./pics/Bask.jpg",
-    "art": "https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG",
+    "picture": "./pics/Bask.jpg",
+    "art": "https://player.vimeo.com/video/334325456",
+    "artistName": "Snow Yunxue Fu",
     "medium": "One channel video",
     "year": "2019",
-    "artDescription": "project description goes here",
     "path": "bask",
-    "artistName": "Snow Yunxue Fu",
-    "artistPicture": "https://media.mnn.com/assets/images/2014/12/snowflake.jpg.653x0_q80_crop-smart.jpg",
-    "bio": "artist's bio goes here",
-    "artistPath": "snow-yunxue-fu"
+    "artistLink": "snow-yunxue-fu"
+},
+{
+    "title": "Elektra is Alive",
+    "picture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEXd3d21tbWysrLX19fAwMDc3Ny8vLzOzs7Kysq3t7fg4ODV1dXBwcHZ2dnFxcW6urqvWIoeAAAD1UlEQVR4nO2da5uqIBRGVS4mRv3/f3sEm4kSqzNuYEPvmm/TM46r/XLRJLoOAAAAAAAAAAAAAAAAAAAAAPAlqONHsASnkQ5BoCgFwYmkQkiKo0hhjr9PaaAR7DptDc2BqLFEgmyDSlVBB0tFugo6lrZIebjjKGM17RG5VdFQRnQdVZkp0gqucFIkrqBDLT+Sz+xGyDTdgutuWIz9KSK6wiSoVqZ5n91RNQfFdBV0MKhiSkE/aBTubgztTGaLMpriiuzPGKFTT65U0aAmGAdj6HJBpZ6L7lAuqHkq6CgU1HyCRRRVroiu/6zE9WLOCjqyj4u5BbNP4HILsrjCAAAAAAAAAAAAAAC7GBpKa+wznuVZHucyM3W009DTMGS/N/oRaiLyc4pnjlU8UVXQK5b/NH2Dkf7MKHDHGfkV0Wh3YrMVR7EuDMOptM+W1ZDgdr8ZWzfsYFgKGH5OM4a78882DI24aH0eo6+1YXj2E6BhmiOvNWGof2Z4Q0SxAUNzCaaw279owNAGghGVBgzH8Cpk2vSo9Rs+hLQfYMgGpDTgoae5bF5uwPA23q+G2ycAazOMOv/etBoiE7faDLvYY5r2eqviGFliXJuh6LctbWGU03S9RB9SrczQLr/UsewuXWgTV09iDWPkmWm1+5RqVYbit0P5j9ufNRnaYNj7RNH4dlmRoejvDNf3Q6U5ade11mMYCjrefWam5CArMlRBRD9qjGZepgE1GW4qGJ+D3vEfXdVkGBF0I+PeOhS13rmpyDAquDBFG6NPaF2Ge4LxxmhcQqeqDPcFNyOj8n3oz4u1GG560afG+DAymjl4rRbDl4KOoDGah4//KzFUbw3vjTFIaFOGP43xIaFtGU7D1T4ntC1Dx9wtCX16yqgtw2e7Bg0jwLAoMIQhDMsDQxjCsDwwhGFVhtOf8V9pyd/w6LfXVGB4EBiW4lvWW8yHl8wIe+qZGpKte+rdLRyOhoRr1yaWa9fo1h8ux+G5/rD9NaQLJ4pVwIzXAX/BUm4AAAAAAAAAAAAAhsS+0aKl/9eJRHuf7aEyb/xi5vwbamRVzLSx1APr/ouZgmNEvl17QrTNZFiignn3Qk29e90LZJYqCl1sm26VZYeiIhG9k34rrYIR7XxjTL1zX6ptaj/HpO1uCkd0JWVQC42DIX5H22RBZVHBLmFQuQj6vVBTBLVsL/pEiqCW70XvqBRBZRNRxzpHJX3Hy0y2X0OryE+QOKj8BD10VWTVi4ZQKTKtoIMmqIwFaRTZRvQ2aBAM/bx3xj1+drz9uJ8eAAAAAAAAAAAAAAAAAAAAAHXxD+30LgghGYFcAAAAAElFTkSuQmCC",
+    "art": "https://www.elektra-is-alive.com/",
+    "artistName": "Sid Branca",
+    "medium": "Website",
+    "year": "2019",
+    "path": "x",
+    "artistLink": "x"
 },
 {
     "title": "The Creation of Adam",
-    "artPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg/600px-%27Adam%27s_Creation_Sistine_Chapel_ceiling%27_by_Michelangelo_JBU33cut.jpg",
     "art": "here's the art",
+    "artistName": "Michaelangelo",
     "medium": "Canvas",
     "year": "2019",
-    "artDescription": "project description goes here",
     "path": "the-creation-of-adam",
-    "artistName": "Michaelangelo",
-    "artistPicture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg",
-    "bio": "artist's bio goes here",
-    "artistPath": "michaelangelo"
+    "artistLink": "michaelangelo"
 },
 {
     "title": "Mona Lisa",
-    "artPicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
     "art": "here's the art",
+    "artistName": "Leonardo Da Vinci",
     "medium": "Canvas",
     "year": "516",
-    "artDescription": "project description goes here",
     "path": "mona-lisa",
-    "artistName": "Leonardo Da Vinci",
-    "artistPicture": "https://www.biography.com/.image/t_share/MTY2MzU4MjUzMDA4MDcwMzE4/portrait-of-leonardo-da-vinci-1452-1519-getty.jpg",
-    "bio": "artist's bio goes here",
-    "artistPath": "leonardo-da-vinci"
+    "artistLink": "leonardo-da-vinci"
 },
 {
     "title": "Floridada",
-    "artPicture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
+    "picture": "https://i.ytimg.com/vi/cuoIvNFUY7I/maxresdefault.jpg",
     "art": "https://www.youtube.com/embed/cuoIvNFUY7I",
+    "artistName": "Animal Collective",
     "medium": "One channel video",
     "year": "2019",
-    "artDescription": "project description goes here",
     "path": "floridada",
-    "artistName": "Animal Collective",
-    "artistPicture": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Animal_Collective-3.jpg",
-    "bio": "artist's bio goes here",
-    "artistPath": "animal-collective"
+    "artistLink": "animal-collective"
 },
 {
     "title": "Illuminating Anonymous",
-    "artPicture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
+    "picture": "https://www.cheaperthandirt.com/on/demandware.static/-/Sites-ctd-site-catalog/default/dw59389476/images/Tactical-Image.jpg",
     "art": "https://sketchfab.com/models/ca5ab51fcf1044e1990ec6cc9d004fd2/embed",
+    "artistName": "Rui Sha",
     "medium": "3D Model",
     "year": "2019",
-    "artDescription": "project description goes here",
     "path": "illuminating-anonymous",
-    "artistName": "Rui Sha",
-    "artistPicture": "https://bllhlaw.com/wp-content/uploads/2018/06/blank-female-profile.png",
-    "bio": "artist's bio goes here",
-    "artistPath": "rui-sha"
+    "artistLink": "rui-sha"
 }]
