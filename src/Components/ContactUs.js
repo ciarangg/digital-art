@@ -9,7 +9,7 @@ class ContactUs extends Component {
         // console.log(this.props.location.aboutProps)
 
         return ( <div>
-                    <h1>Contact Us</h1>
+                    <p>To contact us email</p>
 
                 </div>
         );
